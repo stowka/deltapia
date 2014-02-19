@@ -1,0 +1,228 @@
+@font-face{ 
+	font-family: 'helvlight';
+	src: url(../fonts/HelveticaNeue-Light.ttf) format('truetype');
+}
+@font-face{ 
+	font-family: 'helvultra';
+	src: url(../fonts/HelveticaNeue-UltraLight.ttf) format('truetype');
+}
+
+body {
+	background-color: #000;
+	background-image: url(../img/backgrounds/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0% 42%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+	letter-spacing: 2px;
+}
+
+div.aside a, div.aside a:visited, div.aside a:hover, div.aside a:active {
+	border: none;
+	text-decoration: none;
+}
+
+.padded {
+	padding: 12px;
+}
+
+img.img-bordered {
+	border: 2px solid #fff;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+@media (min-width: 768px) {
+	nav.menu.navbar {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+
+	nav.menu.navbar ul.nav.navbar-nav > li {
+		list-style: none;
+		display: inline-block;
+		padding: 4px;
+	}
+
+	section {
+		background-color: rgba(0, 0, 0, 0.7);
+		padding: 8px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		position: absolute;
+		max-height: 66%;
+		left: 12%;
+		right: 12%;
+		top: 4px;
+	}
+
+	div.aside {
+		position: fixed;
+		bottom: 60px;
+		right: 0;
+		padding: 8px;
+	}
+
+	div.flags_home {
+		position: fixed;
+		top: 0px;
+		right: 0;
+		padding-top: 4px;
+		padding-right: 18px;
+	}
+
+	div.flags_home a, div.flags_home a:visited, div.flags_home a:hover {
+		text-decoration: none;
+		border: none;
+	}
+
+	img.flag_home {
+		padding-left: 48px;
+	}
+}
+
+.helvultra {
+	/*font-family: "helvultra";*/
+	color:#fff;
+}
+
+a, a:visited, nav.menu.navbar ul.nav.navbar-nav > li > a, nav.menu.navbar ul.nav.navbar-nav > li > a:visited {
+	/*font-family: "helvultra";*/
+	border-bottom: 1px #fff solid;
+	color: #fff;
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;
+}
+
+nav.menu.navbar ul.nav.navbar-nav > li > a, nav.menu.navbar ul.nav.navbar-nav.menu.navbar > li > a:visited {
+	font-size: 1.2em;
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;
+	border-bottom: none;
+}
+
+a:hover, nav.menu.navbar ul.nav.navbar-nav > li > a:hover, nav.menu.navbar ul.nav.navbar-nav > li > a:active {
+	/*color: #c0392b;*/
+	color: #fff;
+	text-shadow: 0 0 8px #fff;
+	text-decoration: none;
+}
+
+nav.menu.navbar ul.nav.navbar-nav > li > a:hover, nav.menu.navbar ul.nav.navbar-nav > li > a:active {
+	border-bottom: none;	
+}
+
+.concert {
+	font-size: 1.4em;
+}
+
+.concert-description {
+	font-size: 1.2em;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: "helvlight";
+	color: #fff;
+}
+
+section p {
+	font-size: 0.8em;
+}
+
+.block-post {
+	margin-bottom: 48px;
+}
+
+.block-date {
+	display: block;
+	font-size: 1.3em;
+}
+
+.block-day {
+	font-size: 0.8em;
+	display: block;
+	float: left;
+	padding-right: 6px;
+	margin-right: 6px;
+	font-variant: small-caps;
+}
+
+.block-title {
+	font-size: 1.3em;
+}
+
+.text-small {
+	font-size: 0.6em;
+	color: #fff;
+}
+
+.flag {
+	border: none;
+}
+
+p.logo {
+	text-align: left;
+	margin-left: 18px;
+}
+
+img.logo-sm {
+	width: 11%;
+	padding: 4px;
+}
+
+img.logo-md {
+	padding-top: 12px;
+	width: 300px;
+}
+
+.photoshot {
+	width: auto;
+    height: 210px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.photoshot a {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.photoshot a img {
+
+}
+
+.flag img {
+	
+}
+
+.no-style, .no-style:hover, .no-style:active, .no-style:focus {
+	border: none;
+	text-decoration: none;
+}
+
+.arrow {
+	margin-top: 12px;
+	font-size: 2em;
+}
+
+.introduction-repertoire {
+	font-size: 1.4em;
+}
+
+#repertoire > p {
+	font-size: 1.1em;
+}

@@ -1,0 +1,49 @@
++About
+	+Trio
+		+Biography
+			-English
+			-Nederlands
+			-Deutsch
+		+Repertoire
+			-English
+			-Nederlands
+			-Deutsch
+		-Extra (links)
+	+Musician
+		+CV
+			-English
+			-Nederlands
+			-Deutsch
++Concerts
+	+Upcoming
+		-Datetime
+		+Location
+			-Hall
+			-City
+			+Country
+				-English
+				-Nederlands
+				-Deutsch
+		+Title
+			-English
+			-Nederlands
+			-Deutsch
+		+Description
+			-English
+			-Nederlands
+			-Deutsch
++Photos
+	+Albums
+		+Title
+			-English
+			-Nederlands
+			-Deutsch
+		-Pictures
++Recordings
+	+Video
+		-YouTube
+	+Audio
+		-Soundcloud
++Contact
+	-Trio
+-Programme suggestions

@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+	nav.menu.navbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.navbar-header {
+		background-color: rgba(0, 0, 0, 1);
+	}
+
+	nav.menu.navbar ul.nav.navbar-nav > li {
+		list-style: none;
+		padding: 6px 6px 6px 6px;
+		text-align: center;
+	}
+
+	nav.menu.navbar ul.nav.navbar-nav, nav.menu.navbar {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	section {
+		background-color: rgba(0, 0, 0, 0.7);
+		margin-top: 24px;
+		padding: 4px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+	.block-title {
+		font-size: 1.1em;
+	}
+
+	p.logo {
+		text-align: center;
+		margin-top: 40px;
+		margin-left: 0;
+	}
+
+	.btn-menu {
+		display: inline-block;
+	}
+
+	.aside {
+		display: inline-block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		padding: 16px;
+		z-index: 2;
+	}
+}

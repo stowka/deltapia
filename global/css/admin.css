@@ -1,0 +1,21 @@
+@font-face{ 
+	font-family: 'helvlight';
+	src: url(../fonts/HelveticaNeue-Light.ttf) format('truetype');
+}
+@font-face{ 
+	font-family: 'helvultra';
+	src: url(../fonts/HelveticaNeue-UltraLight.ttf) format('truetype');
+}
+
+body, h1, h2, h3, h4, h5, h6, p, input {
+	font-family: 'helvlight';
+	/*background: url(../img/backgrounds/bg.png) repeat top left;/**/
+}
+
+.tab-content {
+	position: absolute;
+}
+
+.left-bordered {
+	border-left: 1px #eee solid;
+}
