@@ -18,6 +18,7 @@ body {
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
 	letter-spacing: 2px;
+	color: #fff;
 }
 
 div.aside a, div.aside a:visited, div.aside a:hover, div.aside a:active {

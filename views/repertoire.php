@@ -28,8 +28,12 @@
 					<div class="padded"></div>
 					
 					<p class="text-left introduction-repertoire">
-						<a data-toggle="collapse" class="no-style" data-parent="#repertoire" href="#repertoire">
-							<?php print $repertoire['introduction']; ?>
+						<?php print $repertoire['introduction']; ?>
+					</p>
+
+					<p class="text-center introduction-repertoire">
+						<a data-toggle="collapse" class="no-style arrow" data-parent="#repertoire" href="#repertoire">
+							<span class="glyphicon glyphicon-resize-vertical"></span>
 						</a>
 					</p>
 
